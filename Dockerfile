@@ -9,7 +9,7 @@ COPY requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 # copy files required for the app to run
 COPY app.py /usr/src/app/
-COPY index.html /usr/src/app/templates/
+COPY index.html /usr/src/app/
 # tell the port number the container should expose
 EXPOSE 5000
 # run the application
