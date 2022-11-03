@@ -2,7 +2,7 @@
 TAG ?= latest
 REGISTRY_ID ?= 366915744137
 REPOSITORY_REGION ?= eu-central-1
-APP_NAME ?= CatsApp-DockerHub
+APP_NAME ?= catsapp
 ENV_NAME ?= project
 REPO_NAME = $(REGISTRY_ID).dkr.ecr.$(REPOSITORY_REGION).amazonaws.com/${APP_NAME}-${ENV_NAME}
 
